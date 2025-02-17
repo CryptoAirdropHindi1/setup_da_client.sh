@@ -1,22 +1,32 @@
 #!/bin/bash
 
 
-# Display CryptoAirdropHindi Banner with colors
-echo -e "\033[1;36m***************************************"
+# Define colors for text
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
+CYAN='\033[0;36m'
+RESET='\033[0m'  # Reset color
+
+# Display CryptoAirdropHindi Banner with Colors
+echo -e "${CYAN}***************************************"
 echo -e "*                                     *"
-echo -e "*      \033[1;33mCryptoAirdropHindi Info\033[1;36m        *"
+echo -e "*      ${MAGENTA}CryptoAirdropHindi Info${CYAN}        *"
 echo -e "*                                     *"
 echo -e "***************************************"
-echo -e "\033[0mDon't forget to check out our official channels:"
-echo -e "\033[1;32m📱 Telegram: https://t.me/Crypto_airdropHM"
-echo -e "🎥 YouTube: https://www.youtube.com/@CryptoAirdropHindi6"
-echo -e "💻 GitHub Repo: https://github.com/CryptoAirdropHindi/"
+echo -e "Don't forget to check out our official channels:"
+echo -e "📱 Telegram: ${YELLOW}https://t.me/Crypto_airdropHM${RESET}"
+echo -e "🎥 YouTube: ${YELLOW}https://www.youtube.com/@CryptoAirdropHindi6${RESET}"
+echo -e "💻 GitHub Repo: ${YELLOW}https://github.com/CryptoAirdropHindi/${RESET}"
 echo ""
-echo -e "\033[1;36m***************************************"
+echo -e "${CYAN}***************************************"
 echo -e "*                                     *"
-echo -e "*     \033[1;33mThank you for participating!\033[1;36m    *"
+echo -e "*     ${GREEN}Thank you for participating!${CYAN}    *"
 echo -e "*                                     *"
-echo -e "***************************************\033[0m"
+echo -e "***************************************${RESET}"
+
 
 
 # Install dependencies
