@@ -1,8 +1,26 @@
 #!/bin/bash
 
-# Display CryptoAirdropHindi Banner using Python
-python3 /path/to/crypto_banner.py
+# Display CryptoAirdropHindi Banner
+print("""  
+    ***************************************
+    *                                     *
+    *      CryptoAirdropHindi Info        *
+    *                                     *
+    ***************************************
+    """)
+    print("Don't forget to check out our official channels:")
+    print("📱 Telegram: https://t.me/Crypto_airdropHM")
+    print("🎥 YouTube: https://www.youtube.com/@CryptoAirdropHindi6")
+    print("💻 GitHub Repo: https://github.com/CryptoAirdropHindi/")
 
+    print("""
+    ***************************************
+    *                                     *
+    *     Thank you for participating!    *
+    *                                     *
+    ***************************************
+    """)
+-----------------------------------------------------------------
 # Install dependencies
 echo "Installing git..."
 sudo apt install git -y
@@ -71,3 +89,9 @@ echo "Running Docker container..."
 docker run -d --env-file envfile.env --name 0g-da-client -v ./run:/runtime -p 51001:51001 0g-da-client combined
 
 echo "Setup completed successfully!"
+
+***************************************
+*                                     *
+*     Thank you for participating!    *
+*                                     *
+***************************************
