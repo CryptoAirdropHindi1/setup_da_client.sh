@@ -1,21 +1,23 @@
 #!/bin/bash
 
-# Display CryptoAirdropHindi Banner
-echo "***************************************"
-echo "*                                     *"
-echo "*      CryptoAirdropHindi Info        *"
-echo "*                                     *"
-echo "***************************************"
-echo "Don't forget to check out our official channels:"
-echo "📱 Telegram: https://t.me/Crypto_airdropHM"
-echo "🎥 YouTube: https://www.youtube.com/@CryptoAirdropHindi6"
-echo "💻 GitHub Repo: https://github.com/CryptoAirdropHindi/"
+
+# Display CryptoAirdropHindi Banner with colors
+echo -e "\033[1;36m***************************************"
+echo -e "*                                     *"
+echo -e "*      \033[1;33mCryptoAirdropHindi Info\033[1;36m        *"
+echo -e "*                                     *"
+echo -e "***************************************"
+echo -e "\033[0mDon't forget to check out our official channels:"
+echo -e "\033[1;32m📱 Telegram: https://t.me/Crypto_airdropHM"
+echo -e "🎥 YouTube: https://www.youtube.com/@CryptoAirdropHindi6"
+echo -e "💻 GitHub Repo: https://github.com/CryptoAirdropHindi/"
 echo ""
-echo "***************************************"
-echo "*                                     *"
-echo "*     Thank you for participating!    *"
-echo "*                                     *"
-echo "***************************************"
+echo -e "\033[1;36m***************************************"
+echo -e "*                                     *"
+echo -e "*     \033[1;33mThank you for participating!\033[1;36m    *"
+echo -e "*                                     *"
+echo -e "***************************************\033[0m"
+
 
 # Install dependencies
 echo "Installing git..."
