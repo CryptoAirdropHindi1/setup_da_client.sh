@@ -1,26 +1,22 @@
 #!/bin/bash
 
 # Display CryptoAirdropHindi Banner
-print("""  
-    ***************************************
-    *                                     *
-    *      CryptoAirdropHindi Info        *
-    *                                     *
-    ***************************************
-    """)
-    print("Don't forget to check out our official channels:")
-    print("📱 Telegram: https://t.me/Crypto_airdropHM")
-    print("🎥 YouTube: https://www.youtube.com/@CryptoAirdropHindi6")
-    print("💻 GitHub Repo: https://github.com/CryptoAirdropHindi/")
+echo "***************************************"
+echo "*                                     *"
+echo "*      CryptoAirdropHindi Info        *"
+echo "*                                     *"
+echo "***************************************"
+echo "Don't forget to check out our official channels:"
+echo "📱 Telegram: https://t.me/Crypto_airdropHM"
+echo "🎥 YouTube: https://www.youtube.com/@CryptoAirdropHindi6"
+echo "💻 GitHub Repo: https://github.com/CryptoAirdropHindi/"
+echo ""
+echo "***************************************"
+echo "*                                     *"
+echo "*     Thank you for participating!    *"
+echo "*                                     *"
+echo "***************************************"
 
-    print("""
-    ***************************************
-    *                                     *
-    *     Thank you for participating!    *
-    *                                     *
-    ***************************************
-    """)
------------------------------------------------------------------
 # Install dependencies
 echo "Installing git..."
 sudo apt install git -y
@@ -90,8 +86,9 @@ docker run -d --env-file envfile.env --name 0g-da-client -v ./run:/runtime -p 51
 
 echo "Setup completed successfully!"
 
-***************************************
-*                                     *
-*     Thank you for participating!    *
-*                                     *
-***************************************
+# Final message
+echo "***************************************"
+echo "*                                     *"
+echo "*     Thank you for participating!    *"
+echo "*                                     *"
+echo "***************************************"
